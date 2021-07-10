@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: black;
+    background: rgb(208,101,35);
+    background: linear-gradient(176deg, rgba(208,101,35,1) 0%, rgba(144,238,144,1) 100%);
+    font-family: 'Zen Loop', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 100px;
+    border: 3px solid #90ee90; 
+    box-shadow: 0 0 9px lightgreen; 
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+   font-family: 'Zen Loop', cursive;
+   font-size: 24px;
+   font-weight: 100;
+   margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 40px;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgba(144,238,144,1);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: rgba(144,238,144,1) ;
+}
+
+
+
